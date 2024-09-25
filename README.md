@@ -34,26 +34,28 @@
 
 ## Example Screenshots
 
+Click the images for a better view.
+
 ### Login Page
-<img src="Images/1.png" alt="Login Page" width="500"/>
+<img src="Images/1.png" alt="Login Page" width="400"/>
 
 ### Login Failed
-<img src="Images/2.png" alt="Login Failed" width="500"/>
+<img src="Images/2.png" alt="Login Failed" width="400"/>
 
 ### New User Registration
-<img src="Images/3.png" alt="New User Registration" width="500"/>
+<img src="Images/3.png" alt="New User Registration" width="400"/>
 
 ### Customer Page
-<img src="Images/4.png" alt="Customer Page" width="500"/>
+<img src="Images/4.png" alt="Customer Page" width="400"/>
 
 ### View Profile
-<img src="Images/5.png" alt="View Profile" width="500"/>
+<img src="Images/5.png" alt="View Profile" width="400"/>
 
 ### Order Books
-<img src="Images/6.png" alt="Order Books" width="500"/>
+<img src="Images/6.png" alt="Order Books" width="400"/>
 
 ### Purchase History
-<img src="Images/7.png" alt="Purchase History" width="500"/>
+<img src="Images/7.png" alt="Purchase History" width="400"/>
 
 ## Purpose
 This project is intended for display as part of my portfolio to showcase my abilities in full-stack development, specifically in Java for backend logic, HTML for frontend presentation, and SQL for database management.
