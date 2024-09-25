@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Profile</title>
+<style>
+body
+{
+background-image:linear-gradient(to right,dodgerblue,yellow);
+}
+caption
+{
+color:blue;
+background-color:pink;
+}
+</style>
+
+</head>
+<body>
+<form action="Register" method="post">
+<table align="center">
+<caption>New User Registration</caption>
+<tr><td>Enter first name:</td><td><input type="text" name="first"></td></tr>
+<tr><td>Enter last name:</td><td><input type="text" name="last"></td></tr>
+<tr><td>Enter e-mail</td><td><input type="email" name="email"></td></tr>
+<tr><td>Enter new user ID:</td><td><input type="text" name="uid"></td></tr>
+<tr><td>Enter new password:</td><td><input type="text" name="pass1"></td></tr>
+<tr><td>Re-enter new password:</td><td><input type="pass" name="pass2"></td></tr>
+<tr><td>Choose User Type:</td><td><select name="utype">
+  <option value="admin">Admin</option>
+  <option value="user">User</option>
+ </td></tr>
+<tr><td></td><td><input type="submit" value="REGISTER">&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear"></td></tr>
+</table>
+</form>
+</body>
+</html>

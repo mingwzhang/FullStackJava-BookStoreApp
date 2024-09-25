@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+
+
+
+<style>
+body
+{
+background-image:linear-gradient(to left, lightgrey,yellow);
+}
+h3
+{
+background-color:pink;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+<form action="CheckUser" name="LoginForm" method="post" onsubmit="return check()">
+<h3>Login Page</h3>
+<table bgcolor="lightblue" align="center" height=200 width=350>
+
+<tr>
+	<td>Select user type:</td>
+	<td>
+		<INPUT type="radio" name="utype" value="Admin">Admin
+		<INPUT type="radio" name="utype" value="Customer">Customer
+		<div id="div1"></div>		
+	</td>	
+</tr>
+<tr>
+	<td>Enter UID</td>
+	<td>
+		<input type="text" name="uid" placeholder="Enter UID" size=30>
+		<div id="div2"></div>
+	</td>
+</tr>
+
+<tr>
+	<td>Enter PASS</td>
+	<td>
+		<input type="password" name="pwd" placeholder="Enter PWD" size=30>
+		<div id="div3"></div>
+	</td>
+</tr>
+
+<tr>
+	<td></td>
+	<td>
+		<input type="submit" value="Login">
+		<input type="reset" value="Clear">
+	</td>
+</tr>
+</table>
+<h3><a href="Register.html">Click here for registration (for customers only)</a></h3>
+</form>
+<script>
+function check()
+{
+	//alert("In check() function...");
+	var utype=document.LoginForm.utype.value;
+	var uid=document.LoginForm.uid.value;
+	var pwd=document.LoginForm.pwd.value;
+	if(utype=="")
+	{
+		alert("Select User Type");
+		return false;
+	}
+	if(uid=="")
+	{
+		alert("Enter User ID");
+		return false;
+	}
+	if(pwd=="")
+	{
+		alert("Enter User Password");
+		return false;
+	}
+}
+</script>
+</body>
+</html>
